@@ -12,4 +12,6 @@ download zip or clone repo (all required files are included)
 
 # view the website here:
 
+https://omarzakaria031.github.io/CaliforniaGarden-Ecommerce/Test.html
+
 
