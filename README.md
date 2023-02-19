@@ -3,7 +3,9 @@
  
 # Technologies Used 
   ▫ HTML5
+  
   ▫ CSS
+  
   ▫ JavaScript 
   
 download zip or clone repo (all required files are included)
