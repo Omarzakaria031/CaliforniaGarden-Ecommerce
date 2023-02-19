@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>California Garden</title>
     <link rel="stylesheet" href="./Test.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"> -->
+    <script src="./Test.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    
 </head>
 <body>
-        <!--Start Navigation Bar-->
-        <div class="nav">
+    <!--Start Navigation Bar-->
+    <div class="nav">
             <img class="logo" src="./Assets/Group 68.png">
             <ul>
-                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#our story">Our Story</a></li>
-                <li><a href="#">Facility</a></li>
+                <li><a href="#facility">Facility</a></li>
                 <li><a href="#products">Products</a></li>
                 <li><a href="#kitchen">Kitchen</a></li>
                 <li><a href="#video">Video</a></li>
@@ -23,7 +25,14 @@
                 <li><a href="#contact us">Contact Us</a></li>
             </ul>
         </div>
+        <div id="#home"></div>
         <!--End Navigation Bar-->
+
+
+        <!--START BACK TO TOP BTN -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">⏏</button>
+        <!--END BACK TO TOP BTN-->
+
 
         <!--Start Home Section-->
         <section class="first-section">
@@ -35,20 +44,22 @@
                 <button class="content-button">View Products</button>
             </div>   
             
-            <div id="our story"></div> <!--link-->        
         </section>
         <!--End Home Section-->
+        
+        
         <!--Start second Section-->
         <section class="second-section">
+            <div id="our story"></div> <!--link-->        
             <img class="top-img" src="./Assets/Mask Group 27.png">
             <div class="container_text-img">
                 <div class="container_parag">
                     <img class="sheet" src="./Assets/Group 82.png" alt="MySheet">
                     <h1 class="fourth-header">Welcome</h1>
-                    <div id="products"></div> <!--link-->
                     <p class="first-parag">to the world of California Garden!</p>
                     <p class="second-parag">In 1980, California Garden Brand was born from a simple idea, to supply the Far East and the middle East with quality food Products  from  California</p>
                     <p class="third-parag">Since our founding, we have followed a simple phisolophy:to provide the consumer with quality products at reasonable prices</p>
+                    <div id="products"></div> <!--link-->
                     <p class="fourth-parag">Our strength is innovation, both in manufacturing and packaging.Todaywe offer over two hundred products processed in over twenty countries around the world as we celebrate our 40th year of innovation.we are proud of our products and we love what we do!</p>
                     <img class="signature" src="./Assets/signature-300x72.png" alt="MySignature">
 
@@ -66,7 +77,6 @@
 
             
             <div class="carousel">                    
-                <div id="kitchen"></div>  <!--link-->                          
                 <div class="carousel-item1">                   
                     <p class="carousel-sub-item">Just Launched</p>                                               
                     <button class="ellipse"><img src="./Assets/Path 34.png" alt="MyLeftPath"></button>
@@ -75,7 +85,7 @@
                     <div class="carousel-item2">
                         <p class="carousel-sub-item">Fava Beans</p>
                     </div>
-
+                    
                     <div class="carousel-item3">                 
                         <p class="carousel-sub-item">Appetizers</p>
                     </div>
@@ -88,6 +98,7 @@
                 
 
             <div class="menu-ellipse">
+                <div id="kitchen"></div>  <!--link-->                          
                 <img src="./Assets/Ellipse 9.png" alt="First-Ellipse">
                 <img src="./Assets/Ellipse 7.png" alt="Second-Ellipse">
                 <img src="./Assets/Ellipse 9.png" alt="Third-Ellipse">
@@ -188,5 +199,6 @@
                 <a href="mailto:omarzakaria031@gmail.com" title="Mail me">E-mail:omarzakaria031@gamil.com</a>
             </div>
         </footer>
+        <!-- End Footer Section-->
 </body>
 </html>
